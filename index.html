@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>BUCHONE</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- BLOCK ========== HEADER ========== -->
+      <header class="header container">
+        <div class="header_logo">
+          <img src="./images/logo.svg" alt="Logo" />
+          <img src="./images/logo_BuhOne.png" alt="Logo BuhOne" />
+        </div>
+        <ul class="header_menu">
+          <li>Главная</li>
+          <li>Услуги</li>
+          <li>Кейсы</li>
+          <li>О компании</li>
+          <li>Контакты</li>
+        </ul>
+        <img src="./images/burger.png" alt="Burger" class="burger" />
+      </header>
+      <section class="slider_header">
+        <div class="slider_header-container container">
+          <div class="slider_wrapper-main">
+            <div class="slider_wrapper"></div>
+          </div>
+          <div class="slider_header-navigator slider_navigator">
+            <div class="slider_points">
+              <span class="header_point"></span>
+              <span class="header_point"></span>
+              <span class="header_point"></span>
+              <span class="header_point"></span>
+            </div>
+            <div class="slider_buttons">
+              <button class="slider_button-left"><</button>
+              <button class="slider_button-right">></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- BLOCK ========== SERVICES ========== -->
+      <section class="services">
+        <div class="services_container container">
+          <h6>Наши услуги</h6>
+          <h2>Мы специализируемся</h2>
+          <div class="services_cards"></div>
+        </div>
+      </section>
+      <!-- BLOCK ========== ABOUT US ========== -->
+      <section class="aboutUs container">
+        <div class="aboutUs_text">
+          <h6>О нас</h6>
+          <h2>Компания <span>ИвановПром</span></h2>
+          <p>
+            Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
+            латинице с начала XVI века. В то время некий безымянный печатник
+            создал большую коллекцию размеров и форм шрифтов, используя Lorem
+            Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил
+            без заметных изменений пять веков, но и перешагнул в электронный
+            дизайн.
+          </p>
+        </div>
+        <div class="aboutUs_cards"></div>
+      </section>
+      <!-- BLOCK ========== CLIENTS ========== -->
+      <section class="clients">
+        <div class="clients_container container">
+          <h6>Наши клиенты</h6>
+          <h2>С нами работают</h2>
+          <!-- ELEM_BLOCK ========== CLIENTS SLIDER ========== -->
+          <div class="clients_slider container">
+            <div class="clients_slider_wrapper-main">
+              <div class="clients_slider_wrapper"></div>
+            </div>
+            <div class="clients_slider-navigator slider_navigator">
+              <div class="clients_slider_points">
+                <span class="clients_point"></span>
+                <span class="clients_point"></span>
+                <span class="clients_point"></span>
+                <span class="clients_point"></span>
+              </div>
+              <div class="clients_slider_buttons">
+                <button class="clients_slider_button-left"><</button>
+                <button class="clients_slider_button-right">></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- BLOCK ========== REVIEWS ========== -->
+      <section class="reviews">
+        <div class="reviews_container container">
+          <h6>Отзывы</h6>
+          <h2>Ваши благодарности</h2>
+          <!-- ELEM_BLOCK ========== REVIEWS SLIDER ========== -->
+          <div class="reviews_slider container">
+            <div class="reviews_slider_wrapper-main">
+              <div class="reviews_slider_wrapper"></div>
+            </div>
+            <div class="reviews_slider-navigator slider_navigator">
+              <div class="reviews_slider_points">
+                <span class="reviews_point"></span>
+                <span class="reviews_point"></span>
+                <span class="reviews_point"></span>
+                <span class="reviews_point"></span>
+              </div>
+              <div class="reviews_slider_buttons">
+                <button class="reviews_slider_button-left"><</button>
+                <button class="reviews_slider_button-right">></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- BLOCK ========== CONTACT ========== -->
+      <section class="contact">
+        <div class="contact__container container">
+          <div class="contact__text">
+            <h2 class="contact__title">Связь с нами</h2>
+            <h6 class="contact__subtitle">
+              У вас остались вопросы? Напишите нам - мы ответим в ближайшее
+              время!
+            </h6>
+            <div class="contact__mobile_email">
+              <a href="#" class="contact__mobile">
+                <img src="./images/Group.svg" alt="Mobile" />
+                +7 (111) 222-33-44
+              </a>
+              <a href="#" class="contact__email">
+                <img src="./images/Frame.svg" alt="Email" />
+                order@bu-one.ru
+              </a>
+            </div>
+          </div>
+          <!-- ELEM_BLOCK ========== FORM ========== -->
+          <form class="contact__form">
+            <div class="contact__name">
+              <div>
+                <label for="name">Имя</label>
+                <input type="text" placeholder="Иван" name="name" />
+              </div>
+              <div>
+                <label for="lastname">Фамилия</label>
+                <input type="text" placeholder="Иванов" name="lastname" />
+              </div>
+            </div>
+            <label for="message">Сообщение</label>
+            <input type="text" placeholder="Ваше сообщение" name="message" />
+            <div>
+              <button class="contact__button">Отправить сообщение</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- BLOCK ========== FOOTER ========== -->
+      <footer class="footer container">
+        <p>2019 (с) Все права защищены. БухОне.ру</p>
+        <p>Разработано: BuhOne</p>
+      </footer>
+    </div>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
